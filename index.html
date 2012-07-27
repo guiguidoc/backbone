@@ -1,0 +1,32 @@
+ <!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Backbone</title>
+        <script src="zepto.min.js"></script>
+        <script src="underscore-min.js"></script>
+        <script src="backbone-min.js"></script>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+    <body>
+
+    </body>
+
+
+    <script>
+        /*--- code applicatif ( à externaliser ensuite ) ---*/
+
+        /*--- Model ---*/
+        var Client = Backbone.Model.extend({
+            defaults : {
+                nom : null,
+                remarque : null
+            },
+            initialize : function() {
+                console.log("initialize client");
+            }
+        });
+
+    </script>
+
+
+</html>
